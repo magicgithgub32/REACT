@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const EffectOnLoad = ({ name }) => {
   const [nameState, setNameState] = useState(name);
 
+  useEffect(() => {
+    setTimeout(() => {
+      setNameState("Judit")
+
+    },1500)
+  })
+
   return (
     <div>
-      <h4>{name}</h4>
+      <h4>{nameState}</h4>
 
       <input
         type="text"
