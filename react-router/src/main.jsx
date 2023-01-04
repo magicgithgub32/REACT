@@ -5,11 +5,11 @@ import App from './App'
 import './index.css'
 
 
-import Home from '../pages/Home'
-import About from '../pages/About'
-import Heroes from '../pages/Heroes'
-import Heroe from '../pages/Heroe'
-import NotFound from '../pages/404'
+import Home from './pages/Home'
+import About from './pages/About'
+import Heroes from './pages/Heroes'
+import Heroe from './pages/Heroe'
+import NotFound from './pages/404'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
