@@ -3,9 +3,12 @@ import Component2 from './Component2'
 
 export const UserContext = createContext()
 
+
 const Component1 = () => {
 
 const [ user, setUser ] = useState('Leo Piqueras')
+
+
   return (
     <div>
         <UserContext.Provider value={user}>
